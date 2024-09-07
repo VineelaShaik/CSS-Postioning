@@ -233,11 +233,13 @@ body{
       padding-top: 3%;
       & i{
         margin: 10px;
+        margin-left: 0;
+        margin-right: 15px;
       }
     }
    
 }
-@media only screen and (max-width: 500px){
+@media screen and (max-width:767px){
     .cont1{ 
         position: fixed;
         display:flex;
@@ -245,14 +247,17 @@ body{
         height: 50px;
        margin: 0;
        padding: 0;
-        left:7px;
+       left:10px;
         & ul{
             background-color: orangered;
             display:flex;
             flex-direction: row;
             margin: 0;
             & li{
+                font-size: small;
                 margin: 0;
+                padding: 10px;
+                padding-top: 20px;
             }
           
         }
@@ -268,7 +273,7 @@ body{
     .cont2,.cont3,.about,.welcome,.content,.services,.div-skills.portfolio,.flex1,.flex2,.contact{
         margin: 10px;
         & img{
-            max-width:90%;
+            max-width:100%;
         }
 
     }
@@ -285,7 +290,7 @@ body{
             text-align: center;
         }
         & .s-items{
-            margin-left: 25%;
+            margin-left: 10%;
         }
             
     }
@@ -321,13 +326,16 @@ body{
       }
     }
     .tag{
-        left: 0;
+        left: 15%;
         top:40%;
         width:300px;
         
     }
     .end{
-     margin-left: 10%;
+     margin-left: 0;
+     & .icons{
+        margin-left: 25%;
+     }
     }
 }
 
